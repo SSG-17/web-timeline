@@ -16,7 +16,7 @@ request_names <- c("ИРЧП России",
 
 
 #цикл по годам и цикл по запросам
-for (n in 2018:2019){
+for (n in 2018:2028){
   for  (i in 1:length(request_names)){
     Sys.sleep(10)
     # URL страницы поиска в Яндекс'е:
